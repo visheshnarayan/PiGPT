@@ -1,0 +1,8 @@
+openai
+pyaudio
+requests
+websockets
+git+https://github.com/openai/whisper.git
+gradio
+whisper
+warnings
