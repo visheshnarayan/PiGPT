@@ -1,11 +1,12 @@
 # imports
 import openai
+import os
 
 print("Terminal based ChatGPT using text-davinci-003::AI Club demo")
 
 # ! variables 
 model='text-davinci-003'
-openai.api_key='KEY HERE'
+openai.api_key=os.getenv("gpt_key")
 max_tokens=1024
 
 while True:
