@@ -3,7 +3,7 @@ import openai
 print("Terminal based Chat GPT")
 
 model="text-davinci-003"
-openai.api_key="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"
+openai.api_key="KEY HERE"
 prompt=input("User question: ")
 
 max_tokens=1024
